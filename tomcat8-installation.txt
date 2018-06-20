@@ -41,7 +41,7 @@ vi /opt/tomcat8/webapps/manager/META-INF/context.xml
 vi /opt/tomcat8/conf/tomcat-users.xml
 <role rolename="manager-gui"/>
 <role rolename="manager-script"/>
-<user username="javahome" password="javahome" roles="manager-gui,manager-script"/>
+<user username="tmcat" password="tomcat" roles="manager-gui,manager-script"/>
    
 ## Changing Tomcat Port Number
 vim /opt/tomcat8/conf/server.xml
